@@ -1,5 +1,12 @@
 import React from 'react';
+import ArrowBack from '../ArrowBack/ArrowBack';
 
-const About = () => <h1>About us (me)</h1>
+
+const About = props => (
+    <div>
+        <h1>About us (me)</h1>
+        <ArrowBack back={props.back}/>
+    </div>
+)
 
 export default About;
