@@ -6,7 +6,7 @@ const ArrowBack = props => (
     <div>
         <img
             onClick={props.back}
-            src='https://lh3.googleusercontent.com/proxy/TQv1quTcDR1zm8ElgwfzRc7k1cMxElrk-0nzxmpDjn89QJ3-msWESNFpzVZkY_u6pslPxIBxXLyA_DyxVU_BrEjtP2FLG8tJurYd5saG'
+            src='https://f0.pngfuel.com/png/531/265/red-arrow-direction-illustration-png-clip-art.png'
             className='arrow'
             alt='arrow back'
         />

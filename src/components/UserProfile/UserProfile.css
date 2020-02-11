@@ -1,0 +1,56 @@
+.github-card{
+    border: 1px solid black;
+    -webkit-box-shadow: 9px 7px 20px 3px black;
+    box-shadow: 9px 7px 20px 3px black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+.github-card-name {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.github-card-img {
+    border-radius: 30%;
+    max-width: 420px;
+}
+
+.flex-it {
+    display: flex;
+}
+
+.button-container {
+    width: 50%;
+    text-align: center;
+}
+
+.button-choose {
+    margin: 15%;
+    width: 200px;
+    height: 30px;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.button-choose:hover {
+	background-color:#eb675e;
+}
+.button-choose:active {
+	position:relative;
+	top:1px;
+}
+
