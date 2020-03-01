@@ -1,0 +1,19 @@
+.text {
+    padding: 4%;
+}
+
+.text a {
+    font-family: 'Permanent Marker', cursive;
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, red 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    font-size: 1.75em;
+    line-height: 1.15em;
+    text-decoration: none;
+    transition: background-position 0.5s ease-out;
+}
+
+.text a:hover {
+    background-position: -99.99% 0;
+}
