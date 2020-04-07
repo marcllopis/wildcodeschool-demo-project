@@ -15,7 +15,8 @@ const Home = props => {
         // It shows an image on the left and a menu on the right, those left and right things are components
         // With different divs I can control the position and styling of each section
         <div className='main-home'>
-            {process.env.NODE_ENV}
+            MODE: {process.env.NODE_ENV}
+            {process.env.REACT_APP_TEST}
             <HomeImage />
             <div className='home-menu'>
                 <div className='menu-container'>
